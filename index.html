@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MY PORTFOLIO</title>
+    <style>
+      body {
+        font-size:20px;
+        margin-top: 100px;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        padding: 0;
+        background-color: rgb(0, 0, 0);
+      }
+      .details {
+        width: 100px;
+        height: 120px;
+        color: #ffffff;
+        font-size: 18px;
+        font-style: Arial;
+        position: relative;
+        overflow: hidden;
+      }
+      .details:hover {
+        text-align: center;
+        width: 100px;
+        height: 120px;
+        background-color: rgb(42, 42, 42);
+        color: rgb(255, 0, 0);
+      }
+      #vertical_line {
+        margin-top: -20px;
+        border-left: 2px solid white;
+        height: 620px;
+        position: fixed;
+        left: 8%;
+        margin-left: -5px;
+        bottom: 5;
+      }
+      .container {
+        display: grid;
+        height: 100%;
+        grid-template-columns: 20%, 80%;
+     grid-template-areas: "nav content";
+        grid-gap: 0px;
+      }
+      p{
+        font-style: "Times New Roman";
+      }
+      .image{
+        width: 50px;
+        height: 50px;
+      }
+      .register{
+        width: 100%;
+        height: 50px;
+        background-color:rgb(46, 44, 44);
+        color:rgb(255, 255, 255);
+        font-size: 20px;
+      }
+      .nav{
+        position:fixed;
+        top: 10;
+        left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <div id="vertical_line"></div>
+        <a href="#"
+          ><div class="details"><h5>HOME</h5></div></a
+        >
+        <a href="#ABOUT"
+          ><div class="details"><h5>ABOUT</h5></div></a
+        >
+        <a href="#PROJECTS"
+          ><div class="details"><h5>PROJECTS</h5></div></a
+        >
+        <a href="#EXPERIENCE"
+          ><div class="details"><h5>EXPERIENCE</h5></div></a
+        >
+        <a href="#CONTACT"
+          ><div class="details"><h5>CONTACT</h5></div></a
+        >
+      </div>
+      <div class="content">
+        <div id="HOME" style="margin-left: 150px;margin-top: 150px;text-align: center">
+          <i>
+            <h1>
+              <font color="white">HELLO PEOPLE...</font>
+            </h1>
+            <br /><br />
+            <h1>
+              <font color="white">I'm </font>
+              <font color="red">SRIJA CHAKILAM</font>
+            </h1>
+          </i>
+          <i>
+            <h2 style="margin-left: 10px;">
+              <font color="white">Student at SRU</font
+              ><br /><br /><br /><br /><br /><br /><br /><br />
+            </h2>
+          </i>
+        </div>
+        <div id="ABOUT" style="margin-left:100px;">
+          <font color="white">
+            <h1 style="text-decoration:none; border-bottom: 1px solid red;">ABOUT ME</h1>
+            <br>
+            <p>
+              Hello, I am SRIJA CHAKILAM from SR University currently persuaing bachelor's of technology 3
+              rd year under the stream of computer science and engineering with Cgpa of the semester is 9.1.  I
+              have done my schooling in Waranagal Public School with 83 percentage(%) and completed
+              my intermediate at Resonance under MPC course with 93 percentage(%).<br><u><h5>Hobbies: </h5></u><ul type="circle"><li>Quilling potraits</li><li>Cooking</li></ul>
+              <u><h5>Strenghts:</h5></u><ul type="circle"><li> Dedicated to the work</li><li>Honesty</li></ul>
+               <u><h5>Skills: </h5></u><ul type="circle"><li>C language</li><li>HTML</li><li>CSS</li><li>Python</li><li>Data Structures</li><li>DBMS</li></ul>
+            </p>
+          </font><br /><br />
+        </div>
+        <div id="PROJECTS" style="margin-left:100px;">
+          <font color="white">
+              <h1 style="text-decoration:none; border-bottom: 1px solid red; ">PROJECTS</h1><br>
+             <p> I have done multiple projects on multiple domains like C Language, dataBase Management System, Human-Computer interface.
+              <u><h5> C Language:</h5></u><ul type="circle"><li>Online Movie Ticket Booking</li>It is  a C language based project where the data about the tickets booked for a particular movie will be stored using data structures and algorithms.</ul><br>
+              <u>DataBase Management System:</u><ul type="circle"><li>Hospital Management System </li>A project which stores all the data like doctors,patients,rooms,etc regarding a hospital</ul><br>
+              <u>Human-Computer interface:</u><ul type="circle"><li>Food Blog Webpage Design</li>It is a project which deals with the creativity in designing a website, the colours used and the alignment.</ul>
+             </p><br /><br />
+          </font>
+        </div>
+        <div id="EXPERIENCE" style="margin-left:100px;">
+          
+          <font color="white">
+            <h1 style="text-decoration:none; border-bottom: 1px solid red;">EXPERIENCE</h1><br>
+            <p> 
+            <u>Internships:</u><ul type="circle"><li>Coincent</li>currently doing the internship under the domain of artificial intelligence with python</ul><br>
+            <ul type="circle"><li>Lernx</li>Completed the internship under the domain Human resource management</ul><br>
+            <ul type="circle"><li>Codeaplha<li>currently doing the internship under the domain of web-development</ul><br>
+            <ul type="circle"><li>Bharat intern</li>currently doing the internship under the domain of web-development</ul>
+            <u>Certifications:</u><ul type="circle"><li>devtown</li> certification for web-development</ul><br>
+            <ul type="circle"><li>IBM</li>certification course under python</ul><br>
+            <ul type="circle"><li>AWS</li>cloud computing and virtualization</ul>  
+          </p>
+          </font>
+        </div>
+        <div id="CONTACT" style="margin-left:100px;">
+          <font color="white">
+            <h1 style="text-decoration:none; border-bottom: 1px solid red;">CONTACT ME</h1>
+            <br>
+            <p>Email: srijachakilam2003@gmail.com<br><br>
+              phone: 9985427310
+              </p>
+            <table cellspacing="20">
+              <tr>
+                <th><img class="image" src="./facebook a.png"></th> 
+                <th><img class="image" src="./ins.jpeg"></th> 
+                <th><a href="https://www.linkedin.com/in/srija-chakilam-989bb3227/" ><img class="image" src="./linkedin.png"></th>
+             </tr>
+          </table>
+          <form>
+           
+            <p>
+            <input class="register" type="text" name="peru" placeholder="NAME" required><br><br>
+            <input class="register" type="text" name="mail-id" required placeholder="EMAIL"><br><br>
+            <input class="register" type="tel" name="number" placeholder="PHONE"><br><br>
+            <input class="register" type="text" name="msg"placeholder="MESSAGE"><br><br>
+             <input type="submit" value="submit">
+            </p>
+          </form>
+          </font>
+      </div>
+    </div>
+  </body>
+</html>
